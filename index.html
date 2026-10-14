@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore livros, categorias e recursos de aprendizagem na Biblioteca Digital UniFECAF.">
+  <title>Biblioteca Digital | UniFECAF</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="UniFECAF Biblioteca Digital - início">
+        <span class="brand-mark" aria-hidden="true">U</span>
+        <span class="brand-copy"><strong>UniFECAF</strong><small>Biblioteca Digital</small></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="main-nav" id="main-nav" aria-label="Navegação principal">
+        <a href="#inicio">Início</a>
+        <a href="#categorias">Categorias</a>
+        <a href="#destaques">Livros em destaque</a>
+        <a href="#sobre">Sobre a biblioteca</a>
+        <a href="#unifecaf">Sobre a UniFECAF</a>
+      </nav>
+      <a class="header-cta" href="#destaques">Explorar acervo <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero" id="inicio">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow"><span class="eyebrow-dot"></span> CONHECIMENTO SEM LIMITES</span>
+          <h1>Seu próximo capítulo começa <em>aqui.</em></h1>
+          <p>Explore um universo de conhecimento. Encontre livros, conteúdos acadêmicos e novas ideias para acompanhar sua jornada.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#destaques">Explorar livros <span aria-hidden="true">→</span></a>
+            <a class="text-link" href="#categorias">Conheça as categorias <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="hero-proof">
+            <div class="avatar-stack" aria-hidden="true"><span>V</span><span>M</span><span>A</span><span>+</span></div>
+            <p><strong>Aprenda no seu ritmo</strong><small>Conhecimento para cada etapa da sua jornada</small></p>
+          </div>
+        </div>
+        <div class="hero-art" aria-label="Ilustração de livros e leitura">
+          <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
+          <div class="floating-note note-top"><span class="note-icon">✦</span><span><strong>Novas ideias</strong><small>Todos os dias</small></span></div>
+          <div class="book-scene">
+            <div class="book book-back"><span>IDEIAS<br>QUE MUDAM</span></div>
+            <div class="book book-middle"><span>DESIGN<br>DO FUTURO</span><i>✳</i></div>
+            <div class="book book-front"><small>GUIA DE</small><strong>GRANDES<br>DESCOBERTAS</strong><span class="cover-sun"></span></div>
+            <div class="book-shadow"></div>
+          </div>
+          <div class="floating-note note-bottom"><span class="note-icon">↗</span><span><strong>Seu próximo passo</strong><small>Começa com uma página</small></span></div>
+          <span class="spark spark-one">✦</span><span class="spark spark-two">✧</span>
+        </div>
+      </div>
+      <div class="hero-bottom-line"></div>
+    </section>
+
+    <section class="quick-stats" aria-label="Diferenciais da biblioteca">
+      <div class="container stats-grid">
+        <div class="stat-item"><span class="stat-icon">▤</span><div><strong>Acervo selecionado</strong><small>Conteúdos para sua formação</small></div></div>
+        <div class="stat-item"><span class="stat-icon">⌕</span><div><strong>Fácil de explorar</strong><small>Encontre o que precisa</small></div></div>
+        <div class="stat-item"><span class="stat-icon">◷</span><div><strong>Acesse quando quiser</strong><small>Aprendizado no seu ritmo</small></div></div>
+      </div>
+    </section>
+
+    <section class="section categories-section" id="categorias">
+      <div class="container">
+        <div class="section-heading">
+          <div><span class="eyebrow">EXPLORE POR INTERESSE</span><h2>O que você quer <em>descobrir?</em></h2></div>
+          <a class="text-link desktop-link" href="#destaques">Ver todo o acervo <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="category-grid">
+          <a class="category-card category-blue" href="#destaques" data-filter="Tecnologia"><span class="category-symbol">⌘</span><span class="category-name">Tecnologia</span><span class="category-desc">Inovação, dados e futuro</span><span class="category-arrow">↗</span></a>
+          <a class="category-card category-orange" href="#destaques" data-filter="Negócios"><span class="category-symbol">◈</span><span class="category-name">Negócios</span><span class="category-desc">Gestão, carreira e liderança</span><span class="category-arrow">↗</span></a>
+          <a class="category-card category-green" href="#destaques" data-filter="Design"><span class="category-symbol">✳</span><span class="category-name">Design &amp; Criatividade</span><span class="category-desc">Ideias que ganham forma</span><span class="category-arrow">↗</span></a>
+          <a class="category-card category-purple" href="#destaques" data-filter="Desenvolvimento pessoal"><span class="category-symbol">⌁</span><span class="category-name">Desenvolvimento pessoal</span><span class="category-desc">Novas habilidades, novos caminhos</span><span class="category-arrow">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section featured-section" id="destaques">
+      <div class="container">
+        <div class="section-heading">
+          <div><span class="eyebrow">ESCOLHAS PARA INSPIRAR</span><h2>Livros em <em>destaque</em></h2><p class="section-intro">Uma seleção para despertar sua curiosidade e ampliar suas possibilidades.</p></div>
+          <a class="text-link desktop-link" href="#destaques" id="show-all-books">Ver todos os livros <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="book-grid">
+          <article class="book-card" data-category="Tecnologia">
+            <img class="cover-image" src="assets/imagens/capa-livro-01.svg" alt="Capa ilustrada do livro O futuro é agora" loading="lazy">
+            <div class="book-info"><span class="book-category">Tecnologia</span><h3>O futuro é agora</h3><p>Uma introdução às tecnologias que transformam a sociedade, com exemplos de inovação, inteligência artificial e mudanças no cotidiano.</p><a href="livro-futuro.html" class="book-link">Conhecer livro <span aria-hidden="true">→</span></a></div>
+          </article>
+          <article class="book-card" data-category="Negócios">
+            <img class="cover-image" src="assets/imagens/capa-livro-02.svg" alt="Capa ilustrada do livro Pense diferente" loading="lazy">
+            <div class="book-info"><span class="book-category">Negócios</span><h3>Pense diferente</h3><p>Explore criatividade, empreendedorismo e tomada de decisão para transformar boas ideias em projetos concretos.</p><a href="livro-pense-diferente.html" class="book-link">Conhecer livro <span aria-hidden="true">→</span></a></div>
+          </article>
+          <article class="book-card" data-category="Design">
+            <img class="cover-image" src="assets/imagens/capa-livro-03.svg" alt="Capa ilustrada do livro Design com intenção" loading="lazy">
+            <div class="book-info"><span class="book-category">Design</span><h3>Design com intenção</h3><p>Conheça princípios de design centrado nas pessoas, hierarquia visual, acessibilidade e criação de experiências digitais úteis.</p><a href="livro-design-intencao.html" class="book-link">Conhecer livro <span aria-hidden="true">→</span></a></div>
+          </article>
+          <article class="book-card" data-category="Desenvolvimento pessoal">
+            <img class="cover-image" src="assets/imagens/capa-livro-04.svg" alt="Capa ilustrada do livro Pequenos passos" loading="lazy">
+            <div class="book-info"><span class="book-category">Desenvolvimento pessoal</span><h3>Pequenos passos</h3><p>Descubra como metas realistas, hábitos consistentes e pequenas ações podem apoiar o aprendizado e o desenvolvimento pessoal.</p><a href="livro-pequenos-passos.html" class="book-link">Conhecer livro <span aria-hidden="true">→</span></a></div>
+          </article>
+          <article class="book-card" data-category="Tecnologia">
+            <img class="cover-image" src="assets/imagens/capa-livro-05.svg" alt="Capa ilustrativa de Dados que contam histórias" loading="lazy">
+            <div class="book-info"><span class="book-category">Tecnologia</span><h3>Dados que contam histórias</h3><p>Entenda como coletar, interpretar e comunicar dados para identificar padrões e apoiar decisões mais conscientes.</p><a href="#sobre" class="book-link" data-fictional="true">Conhecer livro <span aria-hidden="true">→</span></a></div>
+          </article>
+          <article class="book-card" data-category="Tecnologia">
+            <img class="cover-image" src="assets/imagens/capa-livro-06.svg" alt="Capa ilustrativa de Código para todos" loading="lazy">
+            <div class="book-info"><span class="book-category">Tecnologia</span><h3>Código para todos</h3><p>Conheça os fundamentos da programação, lógica computacional e resolução de problemas por meio de algoritmos e exemplos práticos.</p><a href="#sobre" class="book-link" data-fictional="true">Conhecer livro <span aria-hidden="true">→</span></a></div>
+          </article>
+          <article class="book-card" data-category="Negócios">
+            <img class="cover-image" src="assets/imagens/capa-livro-07.svg" alt="Capa ilustrativa de Liderança na prática" loading="lazy">
+            <div class="book-info"><span class="book-category">Negócios</span><h3>Liderança na prática</h3><p>Uma introdução à comunicação, colaboração e organização de equipes para alcançar objetivos em conjunto.</p><a href="#sobre" class="book-link" data-fictional="true">Conhecer livro <span aria-hidden="true">→</span></a></div>
+          </article>
+          <article class="book-card" data-category="Negócios">
+            <img class="cover-image" src="assets/imagens/capa-livro-08.svg" alt="Capa ilustrativa de Ideias que viram negócios" loading="lazy">
+            <div class="book-info"><span class="book-category">Negócios</span><h3>Ideias que viram negócios</h3><p>Aprenda a observar oportunidades, avaliar ideias e planejar os primeiros passos para desenvolver um projeto ou negócio.</p><a href="#sobre" class="book-link" data-fictional="true">Conhecer livro <span aria-hidden="true">→</span></a></div>
+          </article>
+          <article class="book-card" data-category="Design">
+            <img class="cover-image" src="assets/imagens/capa-livro-09.svg" alt="Capa ilustrativa de Design para pessoas" loading="lazy">
+            <div class="book-info"><span class="book-category">Design</span><h3>Design para pessoas</h3><p>Explore usabilidade, acessibilidade e pesquisa com usuários para criar produtos e serviços mais simples e inclusivos.</p><a href="#sobre" class="book-link" data-fictional="true">Conhecer livro <span aria-hidden="true">→</span></a></div>
+          </article>
+          <article class="book-card" data-category="Design">
+            <img class="cover-image" src="assets/imagens/capa-livro-10.svg" alt="Capa ilustrativa de Cor, forma e mensagem" loading="lazy">
+            <div class="book-info"><span class="book-category">Design</span><h3>Cor, forma e mensagem</h3><p>Descubra como cores, formas, tipografia e composição visual ajudam a transmitir mensagens e construir identidades.</p><a href="#sobre" class="book-link" data-fictional="true">Conhecer livro <span aria-hidden="true">→</span></a></div>
+          </article>
+          <article class="book-card" data-category="Desenvolvimento pessoal">
+            <img class="cover-image" src="assets/imagens/capa-livro-11.svg" alt="Capa ilustrativa de Aprender melhor" loading="lazy">
+            <div class="book-info"><span class="book-category">Desenvolvimento pessoal</span><h3>Aprender melhor</h3><p>Conheça estratégias de estudo, foco, organização e revisão para aproveitar melhor o tempo dedicado à aprendizagem.</p><a href="#sobre" class="book-link" data-fictional="true">Conhecer livro <span aria-hidden="true">→</span></a></div>
+          </article>
+          <article class="book-card" data-category="Desenvolvimento pessoal">
+            <img class="cover-image" src="assets/imagens/capa-livro-12.svg" alt="Capa ilustrativa de Rotina com propósito" loading="lazy">
+            <div class="book-info"><span class="book-category">Desenvolvimento pessoal</span><h3>Rotina com propósito</h3><p>Reflita sobre como organizar a rotina, equilibrar metas e descanso e construir hábitos sustentáveis ao longo do tempo.</p><a href="#sobre" class="book-link" data-fictional="true">Conhecer livro <span aria-hidden="true">→</span></a></div>
+          </article>
+        </div>
+        <p class="catalog-note">Os títulos e as capas exibidos são fictícios e servem como exemplos ilustrativos do acervo.</p>Os títulos exibidos são exemplos ilustrativos de apresentação visual do acervo.</p>
+      </div>
+    </section>
+
+    <section class="section about-library-section" id="sobre">
+      <div class="container">
+        <div class="section-heading about-library-heading">
+          <div><span class="eyebrow">CONHEÇA NOSSO ESPAÇO</span><h2>Sobre a <em>biblioteca</em></h2><p class="section-intro">Um ambiente digital para despertar a curiosidade, explorar novos assuntos e apoiar sua jornada de aprendizagem.</p></div>
+        </div>
+        <div class="about-library-grid">
+          <article class="about-library-main">
+            <div class="about-library-icon" aria-hidden="true">▤</div>
+            <h3>Conhecimento ao seu alcance</h3>
+            <p>A Biblioteca Digital UniFECAF é um protótipo acadêmico pensado para tornar a descoberta de conteúdos simples e agradável. A proposta reúne livros em destaque e categorias temáticas em uma experiência organizada, para que o visitante encontre assuntos de interesse e conheça novas ideias.</p>
+            <p>Explore as páginas dos livros para ler suas apresentações, navegue pelas categorias e use o site como ponto de partida para descobrir temas ligados à tecnologia, aos negócios, ao design e ao desenvolvimento pessoal.</p>
+          </article>
+          <div class="about-library-features">
+            <article class="about-feature"><span aria-hidden="true">⌕</span><div><h3>Navegação simples</h3><p>Seções organizadas para facilitar a exploração do conteúdo.</p></div></article>
+            <article class="about-feature"><span aria-hidden="true">▣</span><div><h3>Temas variados</h3><p>Áreas de conhecimento para diferentes interesses e objetivos.</p></div></article>
+            <article class="about-feature"><span aria-hidden="true">↗</span><div><h3>Acesso responsivo</h3><p>Uma experiência adaptada para computadores, tablets e celulares.</p></div></article>
+            <p class="about-library-note">Observação: os livros e suas descrições são exemplos ilustrativos criados para este projeto, não representam um catálogo oficial da UniFECAF.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section institution-section" id="unifecaf">
+      <div class="container institution-grid">
+        <div class="institution-copy">
+          <span class="eyebrow">CONHEÇA A INSTITUIÇÃO</span>
+          <h2>Sobre a <em>UniFECAF</em></h2>
+          <p>A UniFECAF é um centro universitário que oferece opções de graduação presencial, semipresencial e a distância. Sua proposta valoriza uma experiência educacional prática, próxima dos estudantes e conectada ao desenvolvimento profissional.</p>
+          <p>Esta página é um protótipo acadêmico de Biblioteca Digital, criado para facilitar a descoberta de conteúdos e representar uma experiência de navegação ligada à vida universitária. Os livros apresentados são exemplos ilustrativos, não um catálogo oficial da instituição.</p>
+          <div class="institution-actions">
+            <a class="button button-primary" href="https://www.unifecaf.com.br/" target="_blank" rel="noopener noreferrer">Site oficial da UniFECAF <span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="https://www.unifecaf.com.br/quem-somos" target="_blank" rel="noopener noreferrer">Conheça a instituição <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <div class="institution-card">
+          <div class="institution-card-mark" aria-hidden="true">U<span>✦</span></div>
+          <span class="institution-card-label">UNIFECAF</span>
+          <h3>Aprender. Evoluir. Conquistar.</h3>
+          <p>Conheça os canais oficiais para consultar cursos, história institucional e informações acadêmicas.</p>
+          <a href="https://www.unifecaf.com.br/nossa-historia" target="_blank" rel="noopener noreferrer">Conheça nossa história <span aria-hidden="true">→</span></a>
+          <a href="https://www.unifecaf.com.br/graduacao-presencial" target="_blank" rel="noopener noreferrer">Conheça os cursos <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    
+
+    
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-main">
+      <a class="brand footer-brand" href="#inicio"><span class="brand-mark" aria-hidden="true">U</span><span class="brand-copy"><strong>UniFECAF</strong><small>Biblioteca Digital</small></span></a>
+      <p>Conhecimento que acompanha você.</p>
+      <div class="footer-links"><a href="#categorias">Categorias</a><a href="#destaques">Destaques</a><a href="#sobre">Biblioteca</a><a href="#unifecaf">UniFECAF</a><a href="https://www.unifecaf.com.br/" target="_blank" rel="noopener noreferrer">Site oficial ↗</a></div>
+    </div>
+    <div class="container footer-bottom"><span>© 2026 Biblioteca Digital UniFECAF — Projeto acadêmico de Design Web.</span><span>Feito para aprender, explorar e evoluir.</span></div>
+  </footer>
+  <script>
+    const toggle = document.querySelector('.menu-toggle');
+    const nav = document.querySelector('.main-nav');
+    toggle.addEventListener('click', () => {
+      const open = toggle.getAttribute('aria-expanded') === 'true';
+      toggle.setAttribute('aria-expanded', String(!open));
+      toggle.setAttribute('aria-label', open ? 'Abrir menu' : 'Fechar menu');
+      nav.classList.toggle('is-open', !open);
+    });
+    nav.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
+      nav.classList.remove('is-open');
+      toggle.setAttribute('aria-expanded', 'false');
+      toggle.setAttribute('aria-label', 'Abrir menu');
+    }));
+    const bookCards = [...document.querySelectorAll('.book-card')];
+    const categoryLinks = document.querySelectorAll('.category-card[data-filter]');
+    const booksHeading = document.querySelector('#destaques h2');
+    function filterBooks(category) {
+      bookCards.forEach(card => {
+        card.hidden = Boolean(category) && card.dataset.category !== category;
+      });
+      if (booksHeading) booksHeading.innerHTML = category ? `Livros de <em>${category}</em>` : 'Livros em <em>destaque</em>';
+      document.querySelector('#destaques').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+    categoryLinks.forEach(link => link.addEventListener('click', event => {
+      event.preventDefault();
+      filterBooks(link.dataset.filter);
+    }));
+    document.querySelector('#show-all-books')?.addEventListener('click', event => {
+      event.preventDefault();
+      filterBooks(null);
+    });
+    document.querySelectorAll('[data-fictional="true"]').forEach(link => link.addEventListener('click', event => {
+      event.preventDefault();
+      alert('Este livro é fictício e foi incluído apenas para demonstrar o funcionamento do acervo.');
+    }));
+  </script>
+</body>
+</html>
